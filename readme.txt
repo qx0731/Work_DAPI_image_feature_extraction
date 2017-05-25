@@ -3,7 +3,7 @@ Morphological features from DAPI image for egg chamber stage identification (Mat
 This software has been tested on Matlab 2013b and newer. Note that the Matlab installation should include the Image Processing Toolbox. 	
 
 If you have questions about the use of this package, feel free to contact 
-Qiuping Xu: qxu@math.fsu.edu
+Qiuping Xu: qx0731@gmail.com
 
 This is the supplementary material for paper: D.Jia, Q.Xu, Q.Xie, W.Mio and W, Deng. Drosophila egg chamber stage identification from DAPI images.
 You are welcome to use the software freely. If you use it for a publication, we would appreciate an acknowledgement by referencing our paper.
@@ -31,7 +31,7 @@ Step 4.
 a. Navigate back to ` Image_feature`
 b. Execute the command 
 >> [area ratio oocyte_size distance]=feature_extraction(filename);
-Example: [area ratio oocyte_size distance]=feature_extraction(¡®example1.tif¡¯);
+Example: [area ratio oocyte_size distance]=feature_extraction(Â¡Â®example1.tifÂ¡Â¯);
 REMARK 1:  replace the filename as the name of the .tif files in single quote.
 REMARK 2:  consult the paper for more information
 1. area is the egg chamber size in ?m ^2
@@ -41,10 +41,10 @@ REMARK 2:  consult the paper for more information
             Type in variable name to exam the value, for example, area
 REMARK 3: Along with the quantitative measurement, this algorithm also provide vision aid pictures for egg chamber orientation, oocyte size, follicle cell distribution, blob-like chromosomes and centripetal cell migration.
 REMARK 4: We provide four examples, issue those commands to see those examples
- [area ratio oocyte_size distance]=feature_extraction(¡®example1.tif¡¯);
-[area ratio oocyte_size distance]=feature_extraction(¡®example2.tif¡¯);
-[area ratio oocyte_size distance]=feature_extraction(¡®example3.tif¡¯);
-[area ratio oocyte_size distance]=feature_extraction(¡®example4.tif¡¯);
+ [area ratio oocyte_size distance]=feature_extraction(Â¡Â®example1.tifÂ¡Â¯);
+[area ratio oocyte_size distance]=feature_extraction(Â¡Â®example2.tifÂ¡Â¯);
+[area ratio oocyte_size distance]=feature_extraction(Â¡Â®example3.tifÂ¡Â¯);
+[area ratio oocyte_size distance]=feature_extraction(Â¡Â®example4.tifÂ¡Â¯);
 
 Enjoy~
 		
