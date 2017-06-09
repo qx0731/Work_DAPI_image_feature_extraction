@@ -31,20 +31,24 @@ Step 4.
 a. Navigate back to ` Image_feature`
 b. Execute the command 
 >> [area ratio oocyte_size distance]=feature_extraction(filename);
-Example: [area ratio oocyte_size distance]=feature_extraction(¡®example1.tif¡¯);
+Example: [area ratio oocyte_size distance]=feature_extraction('example1.tif');
 REMARK 1:  replace the filename as the name of the .tif files in single quote.
+
 REMARK 2:  consult the paper for more information
 1. area is the egg chamber size in ?m ^2
 2. ratio is the egg chamber ratio
 3. oocyte_size gives the oocyte size of that egg chamber in %
 4. distance gives the follicle cell distribution 
             Type in variable name to exam the value, for example, area
+	    
 REMARK 3: Along with the quantitative measurement, this algorithm also provide vision aid pictures for egg chamber orientation, oocyte size, follicle cell distribution, blob-like chromosomes and centripetal cell migration.
+
 REMARK 4: We provide four examples, issue those commands to see those examples
- [area ratio oocyte_size distance]=feature_extraction(¡®example1.tif¡¯);
-[area ratio oocyte_size distance]=feature_extraction(¡®example2.tif¡¯);
-[area ratio oocyte_size distance]=feature_extraction(¡®example3.tif¡¯);
-[area ratio oocyte_size distance]=feature_extraction(¡®example4.tif¡¯);
+
+[area ratio oocyte_size distance]=feature_extraction('example1.tif');
+[area ratio oocyte_size distance]=feature_extraction('example2.tif');
+[area ratio oocyte_size distance]=feature_extraction('example3.tif');
+[area ratio oocyte_size distance]=feature_extraction('example4.tif');
 
 Enjoy~
 		
