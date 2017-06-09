@@ -35,7 +35,7 @@ Example: [area ratio oocyte_size distance]=feature_extraction('example1.tif');
 REMARK 1:  replace the filename as the name of the .tif files in single quote.
 
 REMARK 2:  consult the paper for more information
-1. area is the egg chamber size in ?m ^2
+1. area is the egg chamber size in mm ^2
 2. ratio is the egg chamber ratio
 3. oocyte_size gives the oocyte size of that egg chamber in %
 4. distance gives the follicle cell distribution 
